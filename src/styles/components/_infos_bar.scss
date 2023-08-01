@@ -5,6 +5,8 @@
     background-color: variables.$corTextoPrincipal;
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
+    overflow-x: hidden;
 
     &__infos {
         display: flex;
@@ -36,6 +38,8 @@
     @media (max-width: 1024px) {
         &__infos {
             gap: 16px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
     }
 }

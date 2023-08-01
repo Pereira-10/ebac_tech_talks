@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 
     .container {
         position: relative;
@@ -21,12 +22,12 @@
         height: 100%;
         background-color: variables.$corTextoSecundario;
         content: '';
-        opacity: .7;
+        opacity: .9;
     }
 
     &__text{
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 16px;
+        margin-bottom: 32px;
         font-size: 40px;
         line-height: 56px;
         font-weight:800;
@@ -35,20 +36,27 @@
 
     &__logo{
         margin: 0 auto;
-        height: 80px;
+        height: 330px;
         display: block;
     }
 
     @media (max-width:640px) {
         padding: 40px 0;
         &__logo {
-            height: 40px;
+            height: 130px;
         }
 
         &__text {
             font-size: 24px;
             line-height: 24px;
             margin: 24px 0;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__text {
+            font-size: 32px;
+            line-height: 40px;
         }
     }
 }

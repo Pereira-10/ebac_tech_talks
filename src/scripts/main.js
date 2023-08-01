@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoEvento = new Date("Sep 1, 2023 20:30:00");
+const dataDoEvento = new Date("Mar 1, 2024 17:30:00");
 const timeStampDoEvento = dataDoEvento.getTime();
 
 // função para trabalhar com intervalos
