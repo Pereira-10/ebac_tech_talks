@@ -3,6 +3,7 @@ AOS.init();
 const dataDoEvento = new Date("Mar 1, 2024 17:30:00");
 const timeStampDoEvento = dataDoEvento.getTime();
 
+
 // função para trabalhar com intervalos
 const contaAsHoras = setInterval(function() {
     const agora = new Date();
